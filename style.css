@@ -1,0 +1,26 @@
+.gradient-background {
+    background: linear-gradient(300deg, #939CBC, #93B2BD, #BDBA93, #BDB293, #474E68);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+h1 {
+        font-family: "Libre Baskerville", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
